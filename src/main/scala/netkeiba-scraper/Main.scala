@@ -52,7 +52,7 @@ object RaceScraper {
       if (!file.exists()) {
 	driver.get(url)
 	//↓ここあんまり短くしないでね！
-	Thread.sleep(5000)
+	Thread.sleep(1000)
 	val html = driver.getPageSource()
 	FileUtils.writeStringToFile(file, html)
       }
