@@ -1,7 +1,4 @@
-*.txt
-html/*.html
-*.db
-
+html/
 
 # Created by https://www.gitignore.io/api/scala
 
